@@ -1,12 +1,12 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const addButton = document.getElementById("add-task");
+    const addButton = document.getElementById("add-task-btn");
     const taskInput = document.getElementById("task-input");
     const taskList = document.getElementById("task-list");
     //add new task
     function addTask() {
         //get and trim input text
         const taskText = taskInput.value.trim();
-        const addButton = document.getElementById("add-task");
+
 
     //alert if input is empty
     if (taskText === "") {
